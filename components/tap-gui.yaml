@@ -8,6 +8,8 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=backstage'
     'backstage.io/techdocs-ref': dir:.
+    'grafana/dashboard-selector': 'general'
+    'grafana/alert-label-selector': 'type=http-requests'
 spec:
   type: service
   lifecycle: production
